@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-cli-dev/git",
+  "name": "@imooc-cli-dev-gd/git",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
@@ -21,9 +21,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-dev/log": "file:../../utils/log",
-    "@imooc-cli-dev/utils": "file:../../utils/utils",
-    "@imooc-cli-dev/cloudbuild": "file:../../models/cloudbuild",
+    "@imooc-cli-dev-gd/log": "file:../../utils/log",
+    "@imooc-cli-dev-gd/utils": "file:../../utils/utils",
+    "@imooc-cli-dev-gd/cloudbuild": "file:../../models/cloudbuild",
     "axios": "^0.21.1",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.0",

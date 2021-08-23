@@ -2,6 +2,6 @@
 
 const log = require('..');
 
-describe('@imooc-cli-dev/log', () => {
+describe('@imooc-cli-dev-gd/log', () => {
     it('needs tests');
 });

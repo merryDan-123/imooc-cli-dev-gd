@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-cli-dev/core",
+  "name": "@imooc-cli-dev-gd/core",
   "version": "1.0.4",
   "description": "imooc-cli-dev core",
   "author": "sam <247765564@qq.com>",
@@ -20,10 +20,10 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@imooc-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@imooc-cli-dev/exec": "file:../exec",
-    "@imooc-cli-dev/log": "file:../../utils/log",
-    "@imooc-cli-dev/init": "file:../../commands/init",
+    "@imooc-cli-dev-gd/get-npm-info": "file:../../utils/get-npm-info",
+    "@imooc-cli-dev-gd/exec": "file:../exec",
+    "@imooc-cli-dev-gd/log": "file:../../utils/log",
+    "@imooc-cli-dev-gd/init": "file:../../commands/init",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",

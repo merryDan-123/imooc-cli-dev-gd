@@ -1,9 +1,9 @@
 'use strict';
 
 const path = require('path');
-const Package = require('@imooc-cli-dev/package');
-const log = require('@imooc-cli-dev/log');
-const { exec: spawn } = require('@imooc-cli-dev/utils');
+const Package = require('@imooc-cli-dev-gd/package');
+const log = require('@imooc-cli-dev-gd/log');
+const { exec: spawn } = require('@imooc-cli-dev-gd/utils');
 
 const SETTINGS = {
   init: '@imooc-cli/init',

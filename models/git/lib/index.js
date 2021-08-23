@@ -8,11 +8,11 @@ const userHome = require('user-home');
 const inquirer = require('inquirer');
 const terminalLink = require('terminal-link');
 const semver = require('semver');
-const log = require('@imooc-cli-dev/log');
-const { readFile, writeFile, spinnerStart } = require('@imooc-cli-dev/utils');
+const log = require('@imooc-cli-dev-gd/log');
+const { readFile, writeFile, spinnerStart } = require('@imooc-cli-dev-gd/utils');
 const Github = require('./Github');
 const Gitee = require('./Gitee');
-const CloudBuild = require('@imooc-cli-dev/cloudbuild');
+const CloudBuild = require('@imooc-cli-dev-gd/cloudbuild');
 
 const DEFAULT_CLI_HOME = '.imooc-cli-dev';
 const GIT_ROOT_DIR = '.git';

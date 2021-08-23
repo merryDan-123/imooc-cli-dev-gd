@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-cli-dev/cloudbuild",
+  "name": "@imooc-cli-dev-gd/cloudbuild",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
@@ -21,7 +21,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-dev/log": "file:../../utils/log",
+    "@imooc-cli-dev-gd/log": "file:../../utils/log",
     "lodash": "^4.17.21",
     "socket.io-client": "^2.0.0"
   }

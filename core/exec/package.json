@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-cli-dev/exec",
+  "name": "@imooc-cli-dev-gd/exec",
   "version": "1.0.0",
   "description": "imooc-cli-dev execute package",
   "author": "sam <247765564@qq.com>",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-dev/package": "file:../../models/package",
-    "@imooc-cli-dev/log": "file:../../utils/log",
-    "@imooc-cli-dev/utils": "file:../../utils/utils"
+    "@imooc-cli-dev-gd/package": "file:../../models/package",
+    "@imooc-cli-dev-gd/log": "file:../../utils/log",
+    "@imooc-cli-dev-gd/utils": "file:../../utils/utils"
   }
 }

@@ -2,6 +2,6 @@
 
 const command = require('..');
 
-describe('@imooc-cli-dev/Command', () => {
+describe('@imooc-cli-dev-gd/Command', () => {
     it('needs tests');
 });

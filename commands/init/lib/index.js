@@ -8,10 +8,10 @@ const glob = require('glob');
 const ejs = require('ejs');
 const semver = require('semver');
 const userHome = require('user-home');
-const Command = require('@imooc-cli-dev/command');
-const Package = require('@imooc-cli-dev/package');
-const log = require('@imooc-cli-dev/log');
-const { spinnerStart, sleep, execAsync } = require('@imooc-cli-dev/utils');
+const Command = require('@imooc-cli-dev-gd/command');
+const Package = require('@imooc-cli-dev-gd/package');
+const log = require('@imooc-cli-dev-gd/log');
+const { spinnerStart, sleep, execAsync } = require('@imooc-cli-dev-gd/utils');
 
 const getProjectTemplate = require('./getProjectTemplate');
 

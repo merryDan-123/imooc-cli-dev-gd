@@ -1,7 +1,7 @@
 'use strict';
 
 const io = require('socket.io-client');
-const log = require('@imooc-cli-dev/log');
+const log = require('@imooc-cli-dev-gd/log');
 const get = require('lodash/get');
 
 const WS_SERVER = 'http://book.youbaobao.xyz:7001';

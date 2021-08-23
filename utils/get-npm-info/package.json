@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@imooc-cli-dev-gd/get-npm-info",
   "version": "1.0.4",
   "description": "get npm info",
   "author": "sam <247765564@qq.com>",

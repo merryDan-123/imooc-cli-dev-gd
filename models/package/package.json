@@ -1,5 +1,5 @@
 {
-  "name": "@imooc-cli-dev/package",
+  "name": "@imooc-cli-dev-gd/package",
   "version": "1.0.0",
   "description": "imooc-cli-dev npm modules",
   "author": "sam <247765564@qq.com>",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli-dev/format-path": "file:../../utils/format-path",
-    "@imooc-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@imooc-cli-dev/utils": "file:../../utils/utils",
+    "@imooc-cli-dev-gd/format-path": "file:../../utils/format-path",
+    "@imooc-cli-dev-gd/get-npm-info": "file:../../utils/get-npm-info",
+    "@imooc-cli-dev-gd/utils": "file:../../utils/utils",
     "fs-extra": "^9.0.1",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
